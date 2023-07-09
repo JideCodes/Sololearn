@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Satoshi";
+  color: #6B7F99;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content #h31 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3846;
+  margin: 0;
+}
+.content p {
+  width: 300px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.content #logo {
+  width: 150px;
+}
+.content .reward {
+  background-color: rgba(66, 134, 222, 0.1019607843);
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.content .reward p {
+  margin: 10px;
+  color: #2d3846;
+}
+
+.button {
+  width: 100vw;
+}
+.button button {
+  width: 250px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #2493df;
+  color: white;
+  border: none;
+  margin-top: 48px;
+  font-weight: bold;
+  font-size: 1rem;
+}/*# sourceMappingURL=sololearn.css.map */

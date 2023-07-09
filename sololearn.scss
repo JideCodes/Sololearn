@@ -1,0 +1,79 @@
+$pryColor: #2493df;
+$pryfade: #4286DE1A;
+$pryText: #2d3846;
+$textColor: #6B7F99;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Satoshi';
+    color: $textColor;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #h31{
+        font-size: 2rem;
+        font-weight: bold;
+        color: $pryText;
+        margin: 0;
+    }
+
+    p{
+        width: 300px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #logo{
+        width: 150px;
+    }
+
+    .reward{
+        background-color: $pryfade;
+        width: 400px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        p{
+            margin: 10px;
+            color: $pryText;
+        }
+    }
+}
+
+.button{
+    width: 100vw;
+
+    button{
+        width: 250px;
+        height: 48px;
+        border-radius: 5px;
+        background-color: $pryColor;
+        color: white;
+        border: none;
+        margin-top: 48px;
+
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
